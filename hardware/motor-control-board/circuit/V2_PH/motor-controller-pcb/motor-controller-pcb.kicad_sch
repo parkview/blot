@@ -6,8 +6,8 @@
 
   (title_block
     (title "Blot RP2040 Motor Driver")
-    (date "2024-02-12")
-    (rev "2.1b3")
+    (date "2024-02-13")
+    (rev "2.1b1")
     (company "Hack Chat")
     (comment 1 "untested design")
     (comment 2 "By Parkview (CC)")
