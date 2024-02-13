@@ -48,8 +48,27 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|116816000|121180000|17142c64-ef0d-4ac8-9c26-460ecd98aa32|e84c1ee5-53cd-4971-931f-27827026f5fc",
+        "clearance|117096000|99650000|ec83f170-0a98-4eef-b49f-b2f464371c56|a2e0d710-7ae4-416d-ac36-eeef4e625f96",
+        "clearance|117306000|121180000|12c1ae7c-2036-4a4f-b153-748d4b8a9651|e84c1ee5-53cd-4971-931f-27827026f5fc",
+        "clearance|117306000|121180000|87b7b380-c55b-4ca2-b946-00b18fdcc281|e84c1ee5-53cd-4971-931f-27827026f5fc",
+        "clearance|117586000|99650000|296561eb-23b2-4fcb-adf8-50a0feb2e08b|a2e0d710-7ae4-416d-ac36-eeef4e625f96",
+        "clearance|117586000|99650000|d55e539a-42c8-47ca-bc1e-a728ce6f1a39|a2e0d710-7ae4-416d-ac36-eeef4e625f96",
+        "malformed_courtyard|112490000|79120000|46361529-9ba5-41f8-a228-fba57520c1ec|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|131290000|75570000|46361529-9ba5-41f8-a228-fba57520c1ec|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|116816000|121180000|e84c1ee5-53cd-4971-931f-27827026f5fc|17142c64-ef0d-4ac8-9c26-460ecd98aa32",
+        "solder_mask_bridge|117096000|99650000|a2e0d710-7ae4-416d-ac36-eeef4e625f96|ec83f170-0a98-4eef-b49f-b2f464371c56",
+        "solder_mask_bridge|117306000|121180000|e84c1ee5-53cd-4971-931f-27827026f5fc|12c1ae7c-2036-4a4f-b153-748d4b8a9651",
+        "solder_mask_bridge|117586000|99650000|a2e0d710-7ae4-416d-ac36-eeef4e625f96|d55e539a-42c8-47ca-bc1e-a728ce6f1a39"
+      ],
       "meta": {
         "version": 2
       },
@@ -165,8 +184,29 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.5
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
